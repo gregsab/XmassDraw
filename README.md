@@ -17,14 +17,14 @@ Przykładowy wynik losowania:
 ```
 > source("xdraw.R")
        kto     komu
-1   Henryk Grzegorz
-2      Jan   Agatka
-3 Grzegorz   Henryk
-4    Marek      Ela
-5 Apolonia     Ania
-6      Ela    Marek
-7   Agatka      Jan
-8     Ania Apolonia
+1   Henryk      Ela
+2      Jan Grzegorz
+3 Grzegorz Apolonia
+4    Marek      Jan
+5 Apolonia   Agatka
+6      Ela     Ania
+7   Agatka    Marek
+8     Ania   Henryk
 ```
 
 To samo w formie wykresu:
