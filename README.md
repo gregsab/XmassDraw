@@ -14,4 +14,19 @@ Permutujemy ciąg do momentu, aż nie zostaną spełnione warunki poprawności r
 
 Przykładowy wynik losowania:
 
+```
+> source("xdraw.R")
+       kto     komu
+1   Henryk Grzegorz
+2      Jan   Agatka
+3 Grzegorz   Henryk
+4    Marek      Ela
+5 Apolonia     Ania
+6      Ela    Marek
+7   Agatka      Jan
+8     Ania Apolonia
+```
+
+To samo w formie wykresu:
+
 ![wynik 20XX](https://github.com/gregsab/XmassDraw/blob/master/20XX.png)
