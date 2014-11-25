@@ -13,4 +13,5 @@ Układamy osoby w ciąg, tak aby najpierw byli wylistowani mężowie, a następn
 Permutujemy ciąg do momentu, aż nie zostaną spełnione warunki poprawności rozwiązania.
 
 Przykładowy wynik losowania:
+
 ![wynik 20XX](https://github.com/gregsab/XmassDraw/blob/master/20XX.png)
