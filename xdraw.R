@@ -73,6 +73,15 @@ narysuj <- function(kupuje, wszyscy, plik) {
     dev.off()
 }
 
+wypisz <- function(wynik) {
+# Wypisuje wynik losowania w podziale na rodziny
+#
+    for (i in 1:(length(wynik$kto)/2)) {
+        print(wynik[c(i,i+4),])
+        message('')
+    }
+
+}
 
 #dane wejœciowe
 mê¿owie <- c("Henryk", "Jan", "Grzegorz", "Marek")
@@ -81,3 +90,7 @@ mê¿owie <- c("Henryk", "Jan", "Grzegorz", "Marek")
 #losowanie i prezentacja wyników
 wynik <- losujPrezentyPoprawnie(mê¿owie, ¿ony, wykres="20XX.png")
 print(wynik)
+
+message("\nW postaci do wys³ania: ")
+wypisz(wynik)
+
