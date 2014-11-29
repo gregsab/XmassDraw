@@ -76,8 +76,10 @@ narysuj <- function(kupuje, wszyscy, plik) {
 wypisz <- function(wynik) {
 # Wypisuje wynik losowania w podziale na rodziny
 #
-    for (i in 1:(length(wynik$kto)/2)) {
-        print(wynik[c(i,i+4),])
+    ile <- length(wynik$kto)/2
+
+    for (i in 1:ile) {
+        print(wynik[c(i,i+ile),])
         message('')
     }
 
